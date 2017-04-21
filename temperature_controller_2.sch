@@ -1,1 +1,174 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:all_components
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ED2610 U?
+U 1 1 58FA514D
+P 1350 1350
+F 0 "U?" H 1350 1250 60  0000 C CNN
+F 1 "ED2610" H 1350 1150 60  0000 C CNN
+F 2 "" H 1350 1350 60  0000 C CNN
+F 3 "" H 1350 1350 60  0000 C CNN
+	1    1350 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 58FA51E7
+P 2000 1200
+F 0 "C?" H 2025 1300 50  0000 L CNN
+F 1 "10uF" H 2025 1100 50  0000 L CNN
+F 2 "" H 2038 1050 50  0001 C CNN
+F 3 "" H 2000 1200 50  0001 C CNN
+	1    2000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58FA5224
+P 2000 1600
+F 0 "C?" H 2025 1700 50  0000 L CNN
+F 1 "10uF" H 2025 1500 50  0000 L CNN
+F 2 "" H 2038 1450 50  0001 C CNN
+F 3 "" H 2000 1600 50  0001 C CNN
+	1    2000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 58FA5248
+P 2000 950
+F 0 "#FLG?" H 2000 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 1100 50  0000 C CNN
+F 2 "" H 2000 950 50  0001 C CNN
+F 3 "" H 2000 950 50  0001 C CNN
+	1    2000 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1200 1600 1050
+Wire Wire Line
+	1600 1050 2600 1050
+Wire Wire Line
+	2000 1050 2000 950 
+Wire Wire Line
+	1600 1350 2150 1350
+Wire Wire Line
+	1600 1500 1600 1750
+Wire Wire Line
+	1600 1750 2600 1750
+Wire Wire Line
+	2000 1350 2000 1450
+$Comp
+L C C?
+U 1 1 58FA528D
+P 2300 1350
+F 0 "C?" H 2325 1450 50  0000 L CNN
+F 1 "0.1uF" H 2325 1250 50  0000 L CNN
+F 2 "" H 2338 1200 50  0001 C CNN
+F 3 "" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 58FA52C1
+P 2600 1200
+F 0 "C?" H 2450 1100 50  0000 L CNN
+F 1 "0.1uF" H 2350 1300 50  0000 L CNN
+F 2 "" H 2638 1050 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2600 1200
+	-1   0    0    1   
+$EndComp
+Connection ~ 2000 1350
+Wire Wire Line
+	2450 1350 2600 1350
+Connection ~ 2000 1050
+$Comp
+L C C?
+U 1 1 58FA532A
+P 2600 1550
+F 0 "C?" H 2450 1450 50  0000 L CNN
+F 1 "0.1uF" H 2350 1650 50  0000 L CNN
+F 2 "" H 2638 1400 50  0001 C CNN
+F 3 "" H 2600 1550 50  0001 C CNN
+	1    2600 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1350 2600 1400
+Wire Wire Line
+	2600 1750 2600 1700
+Connection ~ 2000 1750
+$Comp
+L +15V #PWR?
+U 1 1 58FA55F5
+P 2450 1000
+F 0 "#PWR?" H 2450 850 50  0001 C CNN
+F 1 "+15V" H 2450 1140 50  0000 C CNN
+F 2 "" H 2450 1000 50  0001 C CNN
+F 3 "" H 2450 1000 50  0001 C CNN
+	1    2450 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1000 2450 1050
+Connection ~ 2450 1050
+$Comp
+L -15V #PWR?
+U 1 1 58FA5643
+P 2450 1800
+F 0 "#PWR?" H 2450 1900 50  0001 C CNN
+F 1 "-15V" H 2450 1950 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 1750 2450 1800
+Connection ~ 2450 1750
+$EndSCHEMATC
