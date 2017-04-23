@@ -1,0 +1,33 @@
+References	Qty	Description  Digikey
+C1	1	C 330pF Unpolarized capacitor 0603 X7R  1276-6658-1-ND
+C2, C3, C16, C25, C22	5	C 10uF Unpolarized capacitor 0603 X5R 490-7202-1-ND
+C6, C7, C8, C13, C17, C28, C4, C5, C11, C12, C18, C19, C24, C9	14	C 0.1uF Unpolarized capacitor 0603 X7R 311-1088-1-ND
+C10, C15, C27, C21	4	C 1uF Unpolarized capacitor 0603 X5R   587-1248-6-ND
+C14	1	C 10000pF Unpolarized capacitor 0603 X7R  311-1085-1-ND
+C20	1	C 0.022uF Unpolarized capacitor 0603 X7R  1276-1104-1-ND
+C23, C26	2	C 22uF Unpolarized capacitor 1206 X5R 490-10755-1-ND
+P1	1	Dual-BNC Ext. Mod./Monitor
+Q1	1	IRF540N 100V Vds, 33A Id, HEXFET N-Channel MOSFET, TO-220 Vertical
+Q2	1	IRF9540N -100V Vds, -23A Id, HEXFET P-Channel MOSFET, TO-220 Vertical
+R2	1	R 511 Resistor
+R4, R5	2	R 200k Resistor
+R12	1	R 0.5 Resistor
+R14, R13, R18, R30	4	R 1k Resistor
+R15, R16, R24, R28, R6	5	R 100k Resistor
+R19	1	R 100 Resistor
+R20	1	R 33k Resistor
+R21	1	R 3.3k Resistor
+R22	1	R 330k Resistor
+R23	1	R 12 Resistor
+R25, R26	2	R 5.1k Resistor
+R29, R27, R9, R11, R10, R17, R31, R32, R3, R7, R8, R1   12  10k resistor
+RV1 1   POT 10k Potentionmeter
+S1, S6, S7  3   spdt-onboard    563-1022-2-ND
+S6, S3, S2, S5, S4, S7, S8, S1	8	spdt   switch  EG2362-ND
+TP2, TP1, TP3, TP6, TP7, TP4, TP5	7	TEST Testpoint, connection for test equipment
+U1	1	ED2610 3-pin wire to board ED2610-ND
+U2, U8	2	OP497 Quad Op amp. OP497GSZ-ND
+U3	1	INA188 Zero-drift in-amp   296-43151-1-ND
+U5	1	AD780  2.5 V reference IC  AD780ARZ-ND
+U6, U7	2	8DIP switch
+U9, U4	2	ED2580 R th wire to board  ED2580-ND
